@@ -20,22 +20,8 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.compactFolders": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "[xml]": {
     "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
   },
@@ -54,7 +40,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "editor.formatOnSave": true,
   "remote.SSH.remotePlatform": {
     "BotV3": "linux"
   },
@@ -67,5 +52,6 @@
   "css.hover.references": false,
   "less.hover.references": false,
   "scss.hover.references": false,
-  "html.hover.references": false
+  "html.hover.references": false,
+  "prettier.trailingComma": "all"
 }
