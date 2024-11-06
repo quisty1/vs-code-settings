@@ -1,0 +1,88 @@
+{
+	"query selector all": {
+		"prefix": "qsa",
+		"body": [
+			"document.querySelectorAll(\"$1\");"
+		],
+		"description": "query selector all"
+	},
+	"query selector": {
+		"prefix": "qs",
+		"body": [
+			"document.querySelector(\"$1\");"
+		],
+		"description": "query selector"
+	},
+	"get element by id": {
+		"prefix": "gebi",
+		"body": [
+			"document.getElementById(\"$1\");"
+		],
+		"description": "get element by id"
+	},
+	"get elements by class name": {
+		"prefix": "gebcn",
+		"body": [
+			"document.getElementsByClassName(\"$1\");"
+		],
+		"description": "get elements by class name"
+	},
+	"get elements by name": {
+		"prefix": "gebn",
+		"body": [
+			"document.getElementsByName(\"$1\");"
+		],
+		"description": "get elements by name"
+	},
+	"get elements by tag name": {
+		"prefix": "gebtn",
+		"body": [
+			"document.getElementsByTagName(\"$1\");"
+		],
+		"description": "get elements by tag name"
+	},
+	"get elements by tag nameNS": {
+		"prefix": "gebtnns",
+		"body": [
+			"document.getElementsByTagNameNS(\"$1\")"
+		],
+		"description": "get elements by tag nameNS"
+	},
+	"base vue 2": {
+		"prefix": "vbase2",
+		"body": [
+			"<script>",
+			"export default {",
+			"  name: '',",
+			"  props: {},",
+			"  data() {",
+			"    return {};",
+			"  },",
+			"  methods: {},",
+			"};",
+			"</script>",
+			"",
+			"<template>",
+			"  <div></div>",
+			"</template>",
+			"",
+			"<style lang='scss' scoped></style>",
+			"",
+		],
+		"description": "base vue 2"
+	},
+	"base vue 3": {
+		"prefix": "vbase3",
+		"body": [
+			"<script setup></script>",
+			"",
+			"<template>",
+			"  <div></div>",
+			"</template>",
+			"",
+			"<style lang='scss' scoped></style>",
+			"",
+		],
+		"description": "base vue 3"
+	},
+}
