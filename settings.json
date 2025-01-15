@@ -30,7 +30,6 @@
   },
   "workbench.iconTheme": "material-icon-theme",
   "editor.lineHeight": 25,
-  "workbench.colorTheme": "Space Ocean Kit Refined",
   "explorer.confirmDelete": false,
   "css.hover.documentation": false,
   "less.hover.documentation": false,
@@ -53,5 +52,8 @@
   "less.hover.references": false,
   "scss.hover.references": false,
   "html.hover.references": false,
-  "prettier.trailingComma": "all"
+  "prettier.trailingComma": "all",
+  "eslint.useFlatConfig": false,
+  "prettier.singleQuote": true,
+  "editor.gotoLocation.multipleDefinitions": "goto"
 }
