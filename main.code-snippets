@@ -1,10 +1,10 @@
 {
-	"query selector all": {
-		"prefix": "qsa",
+	"get element by id": {
+		"prefix": "gebi",
 		"body": [
-			"document.querySelectorAll(\"$1\");"
+			"document.getElementById(\"$1\");"
 		],
-		"description": "query selector all"
+		"description": "get element by id"
 	},
 	"query selector": {
 		"prefix": "qs",
@@ -13,12 +13,12 @@
 		],
 		"description": "query selector"
 	},
-	"get element by id": {
-		"prefix": "gebi",
+	"query selector all": {
+		"prefix": "qsa",
 		"body": [
-			"document.getElementById(\"$1\");"
+			"document.querySelectorAll(\"$1\");"
 		],
-		"description": "get element by id"
+		"description": "query selector all"
 	},
 	"get elements by class name": {
 		"prefix": "gebcn",
@@ -48,8 +48,8 @@
 		],
 		"description": "get elements by tag nameNS"
 	},
-	"base vue 2": {
-		"prefix": "vbase2",
+	"base vue options": {
+		"prefix": "vbaseoptions",
 		"body": [
 			"<script>",
 			"export default {",
@@ -69,10 +69,10 @@
 			"<style lang='scss' scoped></style>",
 			"",
 		],
-		"description": "base vue 2"
+		"description": "base vue options"
 	},
-	"base vue 3": {
-		"prefix": "vbase3",
+	"base vue composition": {
+		"prefix": "vbasecomposition",
 		"body": [
 			"<script setup></script>",
 			"",
@@ -83,6 +83,6 @@
 			"<style lang='scss' scoped></style>",
 			"",
 		],
-		"description": "base vue 3"
+		"description": "base vue composition"
 	},
 }
